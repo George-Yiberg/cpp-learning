@@ -82,3 +82,45 @@ There are also many new classes in the C++ standard library available for use.
 - std::auto_ptr has been deprecated ([22.1 -- Introduction to smart pointers and move semantics](https://www.learncpp.com/cpp-tutorial/introduction-to-smart-pointers-move-semantics/))
 - std::tuple (no tutorial yet)
 - std::unique_ptr ([22.5 -- std::unique_ptr](https://www.learncpp.com/cpp-tutorial/stdunique_ptr/))
+
+
+
+
+
+# 3 the comparisons of cpp versions
+
+
+
+| 特性                              | C++11 | C++14 | C++17 | C++20 |
+| --------------------------------- | ----- | ----- | ----- | ----- |
+| auto                              | ✔     | ✔     | ✔     | ✔     |
+| constexpr                         | ✔     | ✔     | ✔     | ✔     |
+| lambda                            | ✔     | ✔     | ✔     | ✔     |
+| range-based for                   | ✔     | ✔     | ✔     | ✔     |
+| move semantics                    | ✔     | ✔     | ✔     | ✔     |
+| variadic templates                | ✔     | ✔     | ✔     | ✔     |
+| nullptr                           | ✔     | ✔     | ✔     | ✔     |
+| Smart pointers                    | ✔     | ✔     | ✔     | ✔     |
+| Forwarding references             | ✔     | ✔     | ✔     | ✔     |
+| Type inference                    | ✔     | ✔     | ✔     | ✔     |
+| Thread support                    | ✔     | ✔     | ✔     | ✔     |
+| std::make_unique                  |       | ✔     | ✔     | ✔     |
+| std::make_shared                  |       | ✔     | ✔     | ✔     |
+| Binary literals                   |       | ✔     | ✔     | ✔     |
+| Generic lambdas                   |       | ✔     | ✔     | ✔     |
+| Variable templates                |       | ✔     | ✔     | ✔     |
+| Structured bindings               |       |       | ✔     | ✔     |
+| if init statements                |       |       | ✔     | ✔     |
+| constexpr if                      |       |       | ✔     | ✔     |
+| inline variables                  |       |       | ✔     | ✔     |
+| Fold expressions                  |       |       | ✔     | ✔     |
+| Class template argument deduction |       |       |       | ✔     |
+| Concepts                          |       |       |       | ✔     |
+| Modules                           |       |       |       | ✔     |
+| Coroutines                        |       |       |       | ✔     |
+| Ranges                            |       |       |       | ✔     |
+
+> 注：✔ 表示该特性在该版本中已经被支持。
+
+### 学习C++20可以按照以下步骤进行
+
